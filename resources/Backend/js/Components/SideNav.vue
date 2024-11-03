@@ -1,6 +1,6 @@
 <template>
     <div class="sidebar" data-background-color="dark">
-        <div class="sidebar-logo">
+        <div class="sidebar-logo pt-lg-2">
             <div class="logo-header" data-background-color="dark">
                 <router-link to="/admin/dashboard" class="logo ">
                     <img
