@@ -173,3 +173,7 @@ To get started with the Job Portal Site, follow these instructions:
         
 Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
+
+
+![Alt Text](/public/job_portal.jpeg)
+![Alt Text](/public/job_portal1.jpeg)
