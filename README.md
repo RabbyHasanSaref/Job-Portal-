@@ -67,7 +67,6 @@ Before you begin, ensure you have met the following requirements:
 - **Editor**:
   - **Email**: edior@gmail.com
   - **Password**: 1234
- 
 
 </br></br></br></br>
 ## Getting Started 🚀
@@ -77,103 +76,88 @@ To get started with the Job Portal Site, follow these instructions:
 ### Installation
 ------------------
 
-
 1. Clone the Project.
+   
 - **Make Folder Location:**
-    
-    ```jsx
+    ```bash
     git clone <repository-url>
-   cd job-portal
+    cd job-portal
     ```
     
 </br></br>
 - **env file create from .env.example:**
-    ````jsx
+    ```bash
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=job_portal
     DB_USERNAME=root
     DB_PASSWORD=root
-    ````
+    ```
 </br>
 
--  **Check your PHP version**
-    
-    ```jsx
+- **Check your PHP version**
+    ```bash
     php -v
     ```
-    
 </br></br>
 
 - **Local PHP and project PHP file check, make to same**:
     - Check the PHP version required by the project (usually in the `composer.json` file under `platform` or `require`):
         
-        ```jsx
-           sudo apt install php8.1  # Replace with the version you need
+        ```bash
+        sudo apt install php8.1  # Replace with the version you need
         ```
         
-        ```jsx
-           sudo apt update
+        ```bash
+        sudo apt update
         ```
-        
- </br></br>
+</br></br>
 - **Composer update:**
     - Run this to update your dependencies:
-    
     ```bash
-    
     composer update
-
-     ```
+    ```
   </br>  
     - If you don’t have Composer installed:
-    
     ```bash
-    
     sudo apt install composer
     ```
-    
 </br></br>
-- Key generate:
-    
-    ```jsx
+- **Key generate:**
+    ```bash
     php artisan key:generate
     ```
-
-
-
 </br></br>   
 2. Install the frontend dependencies:
     ```bash
-    
     cd frontend
     npm install
-
+    ```
 </br></br>
 3. Set up the backend:
     Configure your .env file with the database settings.
     Run the migrations:
-        ```bash
-   
-        php artisan migrate
-
+    ```bash
+    php artisan migrate
+    ```
 </br></br>
 4. Start the servers:
     Frontend:
-        ```bash
-        
-        npm run serve
+    ```bash
+    npm run serve
+    ```
 </br></br>
- 5. Backend:
-        ````bash
-   
-        php artisan serve
+5. Backend:
+    ```bash
+    php artisan serve
+    ```
 
-        
-Contributing
+## Contributing
+
 Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
 
+---
 
-![Alt Text](/public/job_portal.jpeg)
-![Alt Text](/public/job_portal1.jpeg)
+![Dashboard Screenshot](/public/job_portal.jpeg)
+![Job Listings Screenshot](/public/job_portal1.jpeg)
